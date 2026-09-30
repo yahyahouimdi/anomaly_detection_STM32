@@ -1,0 +1,21 @@
+[
+  {
+    "detrend": {
+      "method": "polynomial",
+      "degree": 3
+    }
+  },
+  {
+    "absolute": {}
+  },
+  {
+    "pooling": {
+      "strategy": "mean",
+      "output_percentage": 85,
+      "n_windows": 1
+    }
+  },
+  {
+    "interleaved": {}
+  }
+]

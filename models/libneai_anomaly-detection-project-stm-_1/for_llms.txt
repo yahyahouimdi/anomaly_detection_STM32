@@ -1,0 +1,1 @@
+Given the four NanoEdge AI Studio JSON files metadata.json, *_model_params.json, *_preprocessing_config.json and *_preprocessing_params.json, generate a Markdown that gives an overview of the associated library, preprocessing + ML configuration and parameters.

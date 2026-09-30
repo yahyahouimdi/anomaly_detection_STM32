@@ -1,0 +1,67 @@
+[
+  {
+    "detrend": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "context": null,
+      "method": "polynomial",
+      "degree": 3
+    }
+  },
+  {
+    "absolute": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "context": null
+    }
+  },
+  {
+    "pooling": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 42,
+        "n_channels": 1
+      },
+      "context": null,
+      "strategy": "mean",
+      "output_percentage": 85,
+      "n_windows": 1
+    }
+  },
+  {
+    "interleaved": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 42,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 42,
+        "n_channels": 1
+      },
+      "context": null
+    }
+  }
+]
